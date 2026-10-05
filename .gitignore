@@ -1,0 +1,65 @@
+# Android / Gradle (keep wrapper files and build definitions)
+.gradle/
+.kotlin/
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+.cxx/
+.externalNativeBuild/
+
+# C/C++, CMake, Visual Studio (keep project/source files)
+build/
+build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.vs/
+*.user
+*.suo
+*.obj
+*.o
+*.pdb
+*.ilk
+*.pch
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Rust (keep Cargo.lock if introduced)
+target/
+
+# Python tools
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local editor / OS files and secrets
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+!.env.example
+
+# Local experimental logs/captures; curated evidence can be added elsewhere
+logs/
+captures/
